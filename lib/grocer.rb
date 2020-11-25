@@ -26,6 +26,5 @@ def consolidate_cart(cart)
       grocery[:count] += 1
     end
   end
-  binding.pry
   cart_consolidated
 end
